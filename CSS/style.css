@@ -1,0 +1,110 @@
+/* shared styles */
+* {
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+
+}
+
+.primary-btn {
+    border: 0px;
+    height: 45px;
+    width: 190px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* Header related styles */
+
+header {
+
+    margin: 100px 120px;
+
+}
+
+
+/* nav related styles */
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-list {
+
+    display: flex;
+    list-style: none;
+
+
+}
+
+nav a {
+
+    margin: right 34px;
+    ;
+    text-decoration: none;
+    color: black;
+
+}
+
+nav li {
+
+    margin-right: 30px;
+    list-style: none;
+    font-weight: 500;
+    font-weight: 1rem;
+
+}
+
+/* cover section styles */
+
+.cover-container {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.cover-img {
+
+    width: 475px;
+    height: 475px;
+    background-image: url("../image/images/main-camera.png"), url("../image/images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+
+}
+
+.cover-content{
+
+    width: 582px;
+    height: 269px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+
+}
+.cover-title {
+
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 70px;
+
+}
+
+.cover-description {
+    height: 60px;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+/* cover section end */
